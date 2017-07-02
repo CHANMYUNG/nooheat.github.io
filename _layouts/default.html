@@ -33,14 +33,13 @@ layout: compress
             
             {% if showHeader != true %}
                 <div class="page {{ page.title | downcase }}">
-                <a href="/search/"><img src="/assets/images/icon/search.png"/></a>
             {% else %}
                 <div class="{{ page.title | downcase }}">
-                <a href="/search/"><img src="/assets/images/icon/search.png"/></a>
             {% endif %}
         {% endif %}
 
             {{ content }}
+            <a href="/search/"><img src="/assets/images/icon/search.png"/></a>
         </div>
     </div>
 
