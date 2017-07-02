@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Profile Image](/assets/images/profile.jpg)
 
 <p>대덕소프트웨어마이스터고등학교 소프트웨어 개발과에 재학중인 서버 개발자 학생</p>
 
