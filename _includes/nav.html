@@ -1,5 +1,6 @@
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
+
         {% if page.title != "Home" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/">Home</a>
@@ -35,8 +36,10 @@
                 <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
             </li>
         {% endif %}
-
+        
+        {% if page.title != "Home" %}
         <br>
         <a href="/search/"><img src="/assets/images/icon/search.png" style="float:right;margin-right:15px"/></a>
+        {% endif %}
     </ul>
 </nav>
