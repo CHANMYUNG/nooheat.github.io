@@ -4,7 +4,10 @@ layout: compress
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    {% if page.title == "Home" %}
+    <br>
+        <a href="/search/"><img src="/assets/images/icon/search.png" style="float:right;margin-right:15px"/></a>
+    {% endif %}
     <meta charset="utf-8">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
     <meta name=viewport content="width=device-width, initial-scale=1">
