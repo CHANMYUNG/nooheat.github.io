@@ -30,11 +30,13 @@ layout: compress
         {% if page.tag %}
             <div class="post">
         {% else %}
-            <a href="/search/"><img src="/assets/images/icon/search.png"/></a>
+            
             {% if showHeader != true %}
                 <div class="page {{ page.title | downcase }}">
+                <a href="/search/"><img src="/assets/images/icon/search.png"/></a>
             {% else %}
                 <div class="{{ page.title | downcase }}">
+                <a href="/search/"><img src="/assets/images/icon/search.png"/></a>
             {% endif %}
         {% endif %}
 
