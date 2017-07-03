@@ -9,20 +9,29 @@
             </li>
         {% endif %}
         
-        {% if page.title != "Home" %}
+        {% if page.title == "Blog" %}
             <li class="item">
                 <a class="link" href="{{ site.url }}/">Home</a>
-
-                {% if page.title != "Blog" %}
                 <a class="link" href="{{ site.url }}/projects">Project</a>
-                {% endif %}
-
-                {% if page.title != "Projects" %}
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
-                {% endif %}
-
                 <a class="link" href="{{ site.url }}/about">About</a>
             </li>
+            <br>
+        {% endif %}
+        
+        {% if page.title == "Projects" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/">Home</a>
+                <a class="link" href="{{ site.url }}/blog">Blog</a>
+                <a class="link" href="{{ site.url }}/about">About</a>
+            </li>
+            <br>
+        {% endif %}
+
+        {% if page.title == null %}
+            <p>페이지 타이틀이 null이다</p>
+        {% endif %}
+
+        {% if page.title != "Home" %}
             <a href="/search/"><img src="/assets/images/icon/search.png" style="float:right;margin-right:15px;width:24px;height:auto" /></a>
         {% endif %}
 
