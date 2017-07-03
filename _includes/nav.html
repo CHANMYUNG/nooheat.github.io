@@ -27,8 +27,14 @@
             <br>
         {% endif %}
 
-        {% if page.title == null %}
-            <p>페이지 타이틀이 null이다</p>
+        {% if page.title == "Post" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/">Home</a>
+                <a class="link" href="{{ site.url }}/blog">Blog</a>
+                <a class="link" href="{{ site.url }}/projects">Project</a>
+                <a class="link" href="{{ site.url }}/about">About</a>
+            </li>
+            <br>
         {% endif %}
 
         {% if page.title != "Home" %}
