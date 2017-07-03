@@ -12,25 +12,12 @@
         {% if page.title != "Home" %}
         <li class="item">
             <a class="link" href="{{ site.url }}/">Home</a>
-
-            {% if page.title != "Blog" %}
-            <p> PROJECTSADAasdsdsad</p>
-            <a class="link" href="{{ site.url }}/blog">Blog</a>
-            {% endif %}
-
-            {% else if page.title != "Projects" %}
-            <p> BLOGASDASDasdsdsad</p>
-            <a class="link" href="{{ site.url }}/projects">Project</a>
-            {% endif %}
-
-            {% else %}
             <a class="link" href="{{ site.url }}/blog">Blog</a>
             <a class="link" href="{{ site.url }}/projects">Project</a>
             <a class="link" href="{{ site.url }}/about">About</a>
-            {% endif %}
         </li>
         <br>
         <a href="/search/"><img src="/assets/images/icon/search.png" style="float:right;margin-right:15px;width:24px;height:auto" /></a>        {% endif %}
-
+        {% endif %}
     </ul>
 </nav>
