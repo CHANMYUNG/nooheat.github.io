@@ -25,7 +25,7 @@ permalink: /search/
 <div id="search-container">
 <input class="search-input-css" type="text" id="search-input" placeholder="검색어를 입력하세요">
 <img src="/assets/images/icon/search.png" style="margin-left:10px">
-<ul id="results-container"></ul>
+<ul class="result-container-css" id="results-container"></ul>
 </div>
 
 <!-- Script pointing to jekyll-search.js -->
@@ -47,8 +47,12 @@ permalink: /search/
 
 <style>
 .search-input-css{
+    padding-left:15px;
     font-size:25px;
     width:500px;
     height:35px
+}
+.result-container-css{
+    font-size:15px
 }
 </style>
