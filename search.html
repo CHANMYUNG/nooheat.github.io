@@ -1,31 +1,31 @@
---- layout: default page_title: Search permalink: /search/ ---
-<nav class="nav">
-    <ul class="list">
-        <!-- -->
-        <li class="item">
-            <a class="link" href="https://nooheat.github.io/">Home</a>
-            <a class="link" href="https://nooheat.github.io/blog">Blog</a>
-            <a class="link" href="https://nooheat.github.io/projects">Project</a>
-            <a class="link" href="https://nooheat.github.io/about">About</a>
-        </li>
-    </ul>
+---
+layout: default
+page_title: Search
+permalink: /search/
+---
+<nav class="nav"> 
+    <ul class="list"> <!-- --> 
+    <li class="item"> 
+        <a class="link" href="https://nooheat.github.io/">Home</a> 
+        <a class="link" href="https://nooheat.github.io/blog">Blog</a> 
+        <a class="link" href="https://nooheat.github.io/projects">Project</a> 
+        <a class="link" href="https://nooheat.github.io/about">About</a> 
+    </li>    
+    </ul> 
 </nav>
 <div id="results">
-    <h1>
-        <!-- `key` listing for `value` -->
-    </h1>
+  <h1><!-- `key` listing for `value` --></h1>
 
-    <ul class="results">
-        <!-- results lists -->
-    </ul>
+  <ul class="results">
+    <!-- results lists -->
+  </ul>
 </div>
 
 <!— Html Elements for Search -->
-<div id="search-container"> 
-    <input type="text" id="search-input" placeholder="검색어를 입력하세요" style="width:500px;height:35px;padding-left:10px;font-size:25px">
-    <img src="/assets/images/icon/search.png" style="width:24px;height:auto;margin-left:10px">
-    <ul id="results-container">
-    </ul>
+<div id="search-container">
+<img src="/assets/images/icon/search.png" style="width:24px;height:auto;margin-right:10px">
+<input type="text" id="search-input" placeholder="검색어를 입력하세요" style="height:24px;width:auto;padding-left:10px">
+<ul id="results-container"></ul>
 </div>
 
 <!-- Script pointing to jekyll-search.js -->
@@ -33,7 +33,7 @@
 
 
 <script type="text/javascript">
-    SimpleJekyllSearch({
+      SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search2.json',
@@ -42,5 +42,5 @@
         limit: 10,
         fuzzy: false,
         exclude: ['Welcome']
-    })
+      })
 </script>
