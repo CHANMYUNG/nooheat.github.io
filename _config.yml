@@ -52,10 +52,10 @@ github: Nooheat
 email: nooheat1228@gmail.com
 
 authors:
-    johndoe:
+    Terry :
         name: Terry Yun
         bio: 서버 지향 개발자
-        external-image: false
+        external-image: true
         picture: /assets/images/profile.jpg
     #   twitter: 
     # jamesfoster:
