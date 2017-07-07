@@ -36,27 +36,34 @@ OS를 개발하거나, 큰 규모의 대회에 나가서 입상하는 친구, �
 
 지금 하고 있는 것들
 ---
-- Android_Club : [GitHub - Android_Club](https://github.com/Nooheat/Android_Club)  
+- ```Android_Club``` : [GitHub - Android_Club](https://github.com/Nooheat/Android_Club)  
+
 > 교내 동아리 관리 애플리케이션이에요. 제 첫 프로젝트입니다. 처음에는 무얼 해야할지 모르고 어리버리한 상태로 친구와 단 둘이 시작한 프로젝트인데  
 마칠 때 즈음에는 서버 공부를 하고 싶다는 생각도 생겼고, 나도 무언갈 할 수 있구나! 하는 생각을 하게 해준 고마운 프로젝트입니다. RESTful하게 리팩토링하는 일만 남았네요.  
   
-- Tellin : [GitHub - Tellin](https://github.com/Nooheat/Tellin)  
-> 같은 과 친구들과 진행하고 있는 프로젝트에요. ```Android_Club``` 프로젝트를 진행하면서 서버 개발을 하고싶어졌는데, 기회가 주어져서 기쁜 마음으로 진행하고 있습니다!! DB도 함께 다루게 될거에요 (디자이너님 빨리 디자인 끝내주세요..)  
+- ```Tellin``` : [GitHub - Tellin](https://github.com/Nooheat/Tellin)  
+
+> 같은 과 친구들과 진행하고 있는 입니다. ```Android_Club``` 프로젝트를 진행하면서 서버 개발을 하고싶어졌는데, 기회가 주어져서 기쁜 마음으로 진행하고 있습니다!! DB도 함께 다루게 될거에요 (디자이너님 빨리 디자인 끝내주세요..)  
   
-- SignMe : [GitHub - SignMe](https://github.com/Nooheat/SignMe)  
+- ```SignMe``` : [GitHub - SignMe](https://github.com/Nooheat/SignMe)  
+
 > 소프트웨어개발과 Java 팀 프로젝트 수행평가로 진행하고 있는 프로젝트입니다! 기숙 학교 특성상 가정통신문을 부모님께 전달하기가 어려운데, 이를 디지털화하는 프로젝트에요. 
 여기서도 서버 개발을 맡고있구요 안드로이드도 병행할 예정이에요! 어리버리한 제가 조장이 돼서 불안불안 하지만 열심히 해보겠습니다 ㅋㅋㅋㅋㅋㅋ
   
-- Entry-DSM (private repository라 링크는 못 달겠네요)  
+- ```Entry-DSM``` (private repository라 링크는 못 달겠네요)  
+
 > 대덕소프트웨어마이스터고등학교 입학 전형 시스템을 개발중입니다! 올해부터 신입생들 원서 지원을 온라인에서 받게 될거에요! 어떻게 보면 가장 규모가 큰 프로젝트인데 서버개발 팀장을 맡고있습니다 ㅋㅋㅋㅋ  
 
-- TodoList  
+- ```TodoList```
+
 > 학교 선배와 친구들과 함께 진행하고있는 투두리스트 프로젝트입니다. 여기서도 서버를.. 맡고 있네요..
   
-- DSM-Community  
+- ```DSM-Community``` 
+
 > 교내 커뮤니티를 개발하는 동아리 프로젝트입니다. 여기서도 ㅋㅋㅋㅋㅋㅋㅋㅋ서버를 맡고 있어요. ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
 
-- 설리번 프로젝트 : [설리번 프로젝트 바로가기](http://sullivanproject.in/)  
+- ```설리번 프로젝트``` : [설리번 프로젝트 바로가기](http://sullivanproject.in/)  
+
 > 만들고 싶은 것을 만들 수 있도록 돕기 위한 학생 주도의 코딩 '교육봉사' 프로젝트 입니다! (아마 서버를 가르치게 될 것 같아요..ㅋㅋㅋㅋ)  
 
 열심히 달려보겠습니다. 감사합니다!
