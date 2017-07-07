@@ -37,7 +37,7 @@ permalink: /search/
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
         json: '{{ site.baseurl }}/search2.json',
-        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        searchResultTemplate: '<li><a href="{url}" style="text-decoration : none" title="{desc}">{title}</a></li>',
         noResultsText: 'No results found',
         limit: 10,
         fuzzy: false,
@@ -136,9 +136,5 @@ permalink: /search/
     .result-container-css{
         font-size:25px;
     }
-}
-
-.result-container-css{
-    text-decoration: none
 }
 </style>
