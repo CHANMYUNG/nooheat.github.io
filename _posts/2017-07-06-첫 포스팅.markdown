@@ -6,7 +6,7 @@ image: /assets/images/markdown.jpg
 headerImage: false
 tag:
 - etc
-star: true
+star: false
 category: blog
 author: Terry
 description: 블로그 첫 포스팅 / 자기소개
