@@ -21,6 +21,7 @@ layout: page
 
 <ul>
 	<li><a href="https://github.com/Nooheat/SignMe">SignMe : 교내 가정통신문 배부/수합 디지털화</a></li>
-	<li><a href="https://github.com/Android_Club">Android_Club : 교내 동아리 운영 시스템 디지털화</a></li>
+	<li><a href="https://github.com/Nooheat/Android_Club">Android_Club : 교내 동아리 운영 시스템 디지털화</a></li>
 	<li><a href="https://github.com/Nooheat">Private/ Entry-DSM : 대덕소프트웨어마이스터고등학교 입학전형 시스템</a></li>
+	<li><a href="https://github.com/Nooheat/Sw-Camp-Hackathon-Chivalry">Hackathon/ Chivalry : 기숙사 사감선생님 도우미 어플리케이션</a></li>
 </ul>
